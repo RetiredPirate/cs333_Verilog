@@ -1,0 +1,52 @@
+$date
+	Thu Sep 21 12:29:06 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module example_2_tb $end
+$scope module e2 $end
+$var wire 4 ! a [3:0] $end
+$var wire 4 " b [3:0] $end
+$var wire 4 # y1 [3:0] $end
+$var wire 4 $ y2 [3:0] $end
+$var wire 4 % y3 [3:0] $end
+$var wire 4 & y4 [3:0] $end
+$var wire 4 ' y5 [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 '
+b1111 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#2
+b101 '
+b1010 $
+b1010 %
+b1010 !
+#4
+b0 '
+b1111 $
+b1111 %
+b101 "
+#8
+b1110 &
+b1 #
+b1110 %
+b1011 !
+#12
+b1100 &
+b11 #
+b1100 %
+b111 "
+#28

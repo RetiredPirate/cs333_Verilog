@@ -1,0 +1,28 @@
+$date
+	Thu Sep 21 12:39:38 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module scramble_tb $end
+$scope module s $end
+$var wire 4 ! A [3:0] $end
+$var wire 4 " B [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1101 "
+b1011 !
+$end
+#2
+b1001 "
+b1001 !
+#4
+b110 "
+b110 !
+#14
