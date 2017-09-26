@@ -14,7 +14,8 @@ module lab2_tb;
     $monitor("y1 is %b", y1);
 
     #2 a = 4'b1010;
-    #2 b = 4'b0101;
+       b = 4'b0100;
+       c = 4'b0111;
     $monitor("y1 is %b", y1);
     #4 c = 4'b1100;
 
